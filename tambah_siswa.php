@@ -33,25 +33,32 @@
       </div>
 
       <!-- Kelas -->
-      <div>
+<!-- Kelas -->
+        <div>
         <label for="kelas" class="block text-lg font-medium text-gray-700 mb-1">Kelas</label>
-        <input type="text" id="kelas" name="kelas" required
-          class="w-full bg-transparent border-b-2 border-blue-400 text-gray-800 py-2 focus:outline-none focus:border-blue-600 placeholder-gray-400"
-          placeholder="Contoh: XII IPA 1">
-      </div>
+        <select id="kelas" name="kelas"
+            class="w-full bg-transparent border-b-2 border-blue-400 text-gray-800 py-2 focus:outline-none focus:border-blue-600">
+            <option value="" disabled selected>Pilih Kelas</option>
+            <option value="X IPA 1">X IPA 1</option>
+            <option value="XI IPA 2">XI IPA 2</option>
+            <option value="XII RPL">XII RPL</option>
+        </select>
+        </div>
+
 
       <!-- Jurusan -->
-      <div>
+        <div>
         <label for="jurusan" class="block text-lg font-medium text-gray-700 mb-1">Jurusan</label>
         <select id="jurusan" name="jurusan"
-          class="w-full bg-transparent border-b-2 border-blue-400 text-gray-800 py-2 focus:outline-none focus:border-blue-600">
-          <option value="" disabled selected>Pilih Jurusan</option>
-          <option value="IPA">IPA</option>
-          <option value="IPS">IPS</option>
-          <option value="TKJ">TKJ</option>
-          <option value="RPL">RPL</option>
+            class="w-full bg-transparent border-b-2 border-blue-400 text-gray-800 py-2 focus:outline-none focus:border-blue-600">
+            <option value="" disabled selected>Pilih Jurusan</option>
+            <option value="IPA">IPA</option>
+            <option value="IPS">IPS</option>
+            <option value="TKJ">TKJ</option>
+            <option value="RPL">RPL</option>
         </select>
-      </div>
+        </div>
+
 
       <!-- Tombol -->
       <div class="pt-4">

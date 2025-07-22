@@ -1,5 +1,5 @@
 <!-- sidebar.php -->
-<aside class="w-64 h-screen bg-gray-800 text-white flex flex-col justify-between py-6 px-4">
+<aside class="w-64 min-h-screen bg-gray-800 text-white flex flex-col justify-between py-6 px-4">
   <div>
     <!-- Logo -->
     <div class="flex justify-center mb-10">
