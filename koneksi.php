@@ -1,12 +1,14 @@
 <?php
-$host = "localhost";
-$user = "root"; // default XAMPP
-$pass = "";     // kosongkan kalau tidak ada password
-$db   = "absensi_siswa"; // 🔁 GANTI NAMA DATABASE DI SINI
+// koneksi_database.php
+// JEMBATAN UNTUK BACKEND - tinggal ubah data berikut
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$db_name = 'absensi_siswa';
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+$conn = new mysqli($host, $user, $pass, $db_name);
 
-if (!$conn) {
-  die("Koneksi gagal: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die('Koneksi gagal: ' . $conn->connect_error);
 }
 ?>
