@@ -1,5 +1,5 @@
 <?php
-// koneksi_database.php
+// koneksi.php
 // JEMBATAN UNTUK BACKEND - tinggal ubah data berikut
 $host = 'localhost';
 $user = 'root';

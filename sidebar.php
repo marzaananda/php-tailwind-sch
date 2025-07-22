@@ -9,6 +9,7 @@
     <!-- Menu -->
     <?php $current = basename($_SERVER['PHP_SELF']); ?>
     <nav class="space-y-4 text-sm font-bold uppercase tracking-wider">
+      <!-- <a href="absen.php" class="block px-4 py-2 rounded <?= $current == 'absen.php' ? 'bg-blue-700' : 'hover:bg-blue-600' ?>">Mau absen?</a> -->
       <a href="dashboard.php" class="block px-4 py-2 rounded <?= $current == 'dashboard.php' ? 'bg-blue-700' : 'hover:bg-blue-600' ?>">Dashboard</a>
       <a href="data_siswa.php" class="block px-4 py-2 rounded <?= $current == 'data_siswa.php' ? 'bg-blue-700' : 'hover:bg-blue-600' ?>">Data Siswa</a>
       <a href="kelas_jurusan.php" class="block px-4 py-2 rounded <?= $current == 'kelas_jurusan.php' ? 'bg-blue-700' : 'hover:bg-blue-600' ?>">Kelas & Jurusan</a>
@@ -17,9 +18,11 @@
   </div>
 
   <!-- Logout -->
+
   <div class="px-4">
-    <a href="logout.php" class="block px-4 py-2 text-sm font-bold uppercase tracking-wider hover:bg-blue-600 rounded text-left">
+    <button onclick="toggleLogoutModal()" class="block px-4 py-2 text-sm font-bold uppercase tracking-wider hover:bg-blue-600 rounded text-left w-full">
       Logout
-    </a>
+    </button>
   </div>
+
 </aside>

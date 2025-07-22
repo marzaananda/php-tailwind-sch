@@ -11,12 +11,19 @@
 
   <!-- Sidebar -->
   <?php include 'sidebar.php'; ?>
+  <?php include 'logout_modal.php'; ?>
 
   <!-- Konten Utama -->
   <main class="flex-1 p-6 overflow-y-auto">
 
-    <!-- Judul -->
-    <h1 class="text-2xl font-bold text-gray-800 mb-6">Dashboard</h1>
+    <!-- Judul & Tombol Absen -->
+    <div class="flex justify-between items-center mb-6">
+      <h1 class="text-2xl font-bold text-gray-800">Dashboard</h1>
+      <a href="absen.php" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium shadow">
+        + Absen Siswa
+      </a>
+    </div>
+
 
     <!-- Statistik Siswa dan Kelas -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">

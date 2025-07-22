@@ -10,6 +10,7 @@
 
   <!-- Sidebar -->
   <?php include 'sidebar.php'; ?>
+  <?php include 'logout_modal.php'; ?>
 
   <!-- Konten Utama -->
   <main class="flex-1 p-6">
@@ -28,8 +29,8 @@
           </div>
         </div>
         <div id="formTambahKelas" class="hidden p-4 border-b">
-          <form id="formKelas" method="POST" action="proses_tambah_kelas.php">
-            <input type="text" name="nama_kelas" placeholder="Nama Kelas" class="w-full px-3 py-2 border rounded mb-2">
+            <form id="formKelas" method="POST" action="proses_tambah_kelas.php" autocomplete="off">
+            <input type="text" name="nama_kelas" placeholder="Nama Kelas" class="w-full px-3 py-2 border rounded mb-2" required>
             <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Simpan</button>
           </form>
         </div>
