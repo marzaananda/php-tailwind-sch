@@ -76,6 +76,6 @@ Proyek ini merupakan antarmuka front-end untuk sistem absensi siswa berbasis web
 
 ---
 
-Silakan lanjutkan pengembangan backend dengan struktur ini. Semua file sudah siap pakai dan konsisten.
+Silakan lanjutkan pengembangan backend dengan struktur ini. Semua file sudah siap pakai dan konsisten.ok?
 
-Sip
+
